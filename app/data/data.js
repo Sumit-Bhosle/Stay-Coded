@@ -135,7 +135,7 @@ export const projects = [
       { name: "Django", icon: SiDjango, color: "#339933" },
       { name: "REST API", icon: FaServer, color: "#6DB33F" },
     ],
-    // liveLink: "#",
+    liveLink: "https://the-cloth-store.onrender.com",
     githubLink: "https://github.com/Sumit-Bhosle",
     image: "/images/TheClothStore.png",
     video: "/videos/TheClothStore.mp4" // 👈 add your video path here
