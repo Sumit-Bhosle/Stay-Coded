@@ -163,7 +163,7 @@ const Experience = () => {
         </div>
 
         {/* Timeline section */}
-        <div className="timeline-dark w-full max-w-5xl mx-auto">
+        <div className="timeline-dark w-full max-w-7xl mx-auto">
           <Timeline
             data={timelineData}
             timelineClassName="!bg-black"

@@ -138,7 +138,7 @@ const Techstack = () => {
 
         <motion.div
           variants={containerVariants}
-          className="flex gap-7 md:gap-9 flex-wrap justify-center w-full"
+          className="flex gap-7 md:gap-9 flex-wrap justify-center max-w-4xl mx-auto"
           ref={skillsRef}
         >
           {skills.map((skill, index) => {

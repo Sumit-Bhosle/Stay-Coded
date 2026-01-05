@@ -146,15 +146,15 @@ export const expCards = [
     {
     logoPath: "/images/bambhari.webp",
     title: "FullStack Developer Intern",
-    date: "May 2025 - Present",
+    date: "May 2025 - November 2025",
     companyName: "Bambhari Pvt. Ltd.",
      responsibilities: [
     "Team Lead , Front End, AWS, R&D, Brand Guidelines",
     "Spearheaded the end-to-end development of a responsive, Traditional Style event page for Innomantra’s ISO 56000 EVENT requirement, leveraging HTML, CSS, Bootstrap 5, and embedded interactive PDF viewers.",
     "Led the Anghari web project, architecting a scalable Next.js and Tailwind CSS application with modular design, Gsap animation with reusable components, and mobile-first responsiveness.",
-    "Acted as the primary liaison with stakeholders and clients—conducting meetings, gathering requirements, and managing timelines, resources, and cross-functional collaboration.",
+    "Acted as the primary liaison with stakeholders and clients - conducting meetings, gathering requirements, and managing timelines, resources, and cross-functional collaboration.",
     "Utilized a diverse tech stack, including Canva, Hostinger Website Builder, Razorpay integration, GSAP, and Lottie for animation-rich and user-centric design solutions.",
-    "Research paper, produced comprehensive technical documentation, and mentored fellow developers—ensuring code quality, knowledge transfer, and alignment with business goals.",
+    "Research paper, produced comprehensive technical documentation, and mentored fellow developers - ensuring code quality, knowledge transfer, and alignment with business goals.",
   ],
   },
 {
