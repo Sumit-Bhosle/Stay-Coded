@@ -91,7 +91,7 @@ const Experience = () => {
               {/* <p className="text-[#839CB5] italic">Responsibilities</p> */}
               <ul className="list-disc ms-5 mt-5 flex flex-col gap-2 text-white-50">
                 {card.responsibilities.map((responsibility, index) => (
-                  <li key={index} className="text-lg text-start">
+                  <li key={index} className="text-base text-start">
                     {responsibility}
                   </li>
                 ))}

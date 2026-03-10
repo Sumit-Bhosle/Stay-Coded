@@ -70,6 +70,25 @@ export const skills = [
 
 
 export const projects = [
+  {
+  name: "Deepali Enterprises",
+  description: "A responsive business website built with Next.js to showcase company services and digital presence.",
+  points: [
+    "Developed a responsive company website using Next.js and modern frontend practices.",
+    "Implemented clean UI layouts with mobile-first design and optimized performance.",
+    "Deployed the project on Vercel with automated builds and continuous deployment."
+  ],
+  techStack: [
+    { name: "Next.js", icon: SiNextdotjs, color: "#000000" },
+    { name: "React", icon: FaReact, color: "#61DAFB" },
+    { name: "CSS", icon: FaCss3Alt, color: "#1572B6" },
+    { name: "Vercel", icon: SiVercel, color: "#000000" }
+  ],
+  liveLink: "https://deepali-enterprises.vercel.app",
+  githubLink: "https://github.com/Sumit-Bhosle",
+  image: "/images/Deepalienterprises.png",
+  video: "/videos/Deepalienterprises.mp4"
+},
     {
     name: "Anghari",
     description: "A dynamic and visually engaging web platform built with modern animations and responsive design.",
@@ -118,56 +137,71 @@ export const projects = [
       { name: "Hostinger Builder", icon: FaServer, color: "#FF6600" },
       { name: "Canva", icon: SiCanva, color: "#00C4CC" },
     ],
-    // liveLink: "#",
+    liveLink: "https://www.bambhari.in/",
     githubLink: "https://github.com/Sumit-Bhosle",
     image: "/images/BRI.png",
+    video: "/videos/BRI.mp4"
   },
-  {
-    name: "TheClothStore",
-    description: "An e-commerce platform for clothing products with an integrated admin panel for inventory and order management.",
-    points: [
-      "Built with Django and Python for robust backend handling.",
-      "Implemented Jinja templating for dynamic content rendering.",
-      "Created REST APIs for seamless front-end and backend communication."
-    ],
-    techStack: [
-      { name: "Python", icon: FaPython, color: "#3776AB" },
-      { name: "Django", icon: SiDjango, color: "#339933" },
-      { name: "REST API", icon: FaServer, color: "#6DB33F" },
-    ],
-    liveLink: "https://the-cloth-store.onrender.com",
-    githubLink: "https://github.com/Sumit-Bhosle",
-    image: "/images/TheClothStore.png",
-    video: "/videos/TheClothStore.mp4" // 👈 add your video path here
-  },
+  // {
+  //   name: "TheClothStore",
+  //   description: "An e-commerce platform for clothing products with an integrated admin panel for inventory and order management.",
+  //   points: [
+  //     "Built with Django and Python for robust backend handling.",
+  //     "Implemented Jinja templating for dynamic content rendering.",
+  //     "Created REST APIs for seamless front-end and backend communication."
+  //   ],
+  //   techStack: [
+  //     { name: "Python", icon: FaPython, color: "#3776AB" },
+  //     { name: "Django", icon: SiDjango, color: "#339933" },
+  //     { name: "REST API", icon: FaServer, color: "#6DB33F" },
+  //   ],
+  //   liveLink: "https://the-cloth-store.onrender.com",
+  //   githubLink: "https://github.com/Sumit-Bhosle",
+  //   image: "/images/TheClothStore.png",
+  //   video: "/videos/TheClothStore.mp4" // 👈 add your video path here
+  // },
 ];
 
 export const expCards = [
-    {
+  {
+    logoPath: "/images/ess.png",
+    title: "Freelance Web & Infrastructure Engineer",
+    date: "Feb 2026 - Present",
+    companyName: "ESS Infraproject Pvt. Ltd.",
+    responsibilities: [
+      "Migrated email infrastructure from Cpanel hosting to Business Email platform.",
+      "Configured domain DNS records including MX, SPF, DKIM, and DMARC.",
+      "Backed up legacy mailboxes and deployed 13 Outlook IMAP email accounts.",
+      "Provided remote technical support during infrastructure and email migration.",
+      "Developing and deploying the company website with hosting integration.",
+      "Managing DNS routing and hosting configuration to ensure service continuity.",
+    ],
+  },
+
+  {
     logoPath: "/images/bambhari.webp",
-    title: "FullStack Developer Intern",
+    title: "Full Stack Developer Intern",
     date: "May 2025 - November 2025",
     companyName: "Bambhari Pvt. Ltd.",
-     responsibilities: [
-    "Team Lead , Front End, AWS, R&D, Brand Guidelines",
-    "Spearheaded the end-to-end development of a responsive, Traditional Style event page for Innomantra’s ISO 56000 EVENT requirement, leveraging HTML, CSS, Bootstrap 5, and embedded interactive PDF viewers.",
-    "Led the Anghari web project, architecting a scalable Next.js and Tailwind CSS application with modular design, Gsap animation with reusable components, and mobile-first responsiveness.",
-    "Acted as the primary liaison with stakeholders and clients - conducting meetings, gathering requirements, and managing timelines, resources, and cross-functional collaboration.",
-    "Utilized a diverse tech stack, including Canva, Hostinger Website Builder, Razorpay integration, GSAP, and Lottie for animation-rich and user-centric design solutions.",
-    "Research paper, produced comprehensive technical documentation, and mentored fellow developers - ensuring code quality, knowledge transfer, and alignment with business goals.",
-  ],
+    responsibilities: [
+      "Developed and maintained responsive web applications using modern frontend technologies.",
+      "Assisted with cloud deployment and infrastructure setup using AWS services.",
+      "Collaborated with cross-functional teams following Agile development workflows.",
+      "Reviewed code, debugged issues, and improved application performance.",
+      "Gained hands-on experience with professional software development practices.",
+    ],
   },
-{
-  logoPath: "/images/prodocs.png",
-  title: "System Engineer",
-  date: "Nov 2022 - Jun 2023",
-  companyName: "Prodocs Solutions Pvt. Ltd.",
-  responsibilities: [
-    "Provided IT support for over 300+ systems across the workplace, ensuring maximum uptime and operational stability.",
-    "Handled system assembly, OS installation, domain user creation, and email configuration including Microsoft Outlook troubleshooting.",
-    "Managed local NAS-box storage systems and executed basic firewall and router configurations to maintain network integrity.",
-    "Troubleshot hardware and network issues efficiently, supporting both on-site infrastructure and end-user needs.",
-    "Coordinated with cross-functional teams to streamline IT workflows, asset management, and internal system policies.",
-  ],
-}
+  {
+    logoPath: "/images/prodocs.png",
+    title: "System Engineer",
+    date: "Nov 2022 - Jun 2023",
+    companyName: "Prodocs Solutions Pvt. Ltd.",
+    responsibilities: [
+      "Provided IT infrastructure support for 300+ workplace systems.",
+      "Handled OS installations, domain user management, and system configuration.",
+      "Configured Microsoft Outlook and resolved enterprise email issues.",
+      "Managed NAS storage systems and assisted with firewall and router setup.",
+      "Improved internal IT processes to enhance system reliability and service delivery.",
+    ],
+  },
 ];  
